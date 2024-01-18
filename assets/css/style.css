@@ -117,7 +117,7 @@ nav.navbar.bootsnav {
 }
 
 /*.navbar-brand*/
-.navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header, a.navbar-brand:focus {
+.navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: #f92c9f ;
     font-size: 20px;
@@ -295,6 +295,119 @@ nav.navbar.bootsnav .navbar-toggle i{color: #f92c9f ;}
     width: 102%;
     height: 70px;
     background: #1f2c6c;
+}
+
+/* Cards*/
+.demo
+{
+	padding: 50px 0;
+}
+.heading-title
+{
+	margin-bottom: 50px;
+}
+.pricingTable {
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+    margin: 0 15px;
+    text-align: center;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.pricingTable:hover{
+    border: 2px solid #f92c9f;
+    margin-top: -30px;
+}
+
+.pricingTable .pricingTable-header{
+    padding: 30px 10px;
+}
+
+.pricingTable .heading{
+    display: block;
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size:21px;
+}
+
+.pricingTable .pricing-plans {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d0d0d0;
+    color: #000;
+    font-weight: 900;
+}
+
+.pricingTable .price-value{
+    color: #474747;
+    display: block;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 35px;
+    padding: 0 10px;
+}
+
+.pricingTable .price-value span{
+    font-size: 50px;
+}
+
+.pricingTable .subtitle{
+    color: #82919f;
+    display: block;
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+
+.pricingTable .pricingContent ul{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.pricingTable .pricingContent ul li{
+    padding: 30px;
+}
+
+.pricingTable .pricingContent ul li:nth-child(odd) {
+    background-color: #fff;
+}
+
+.pricingTable .pricingContent ul li:last-child{
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.pricingTable .pricingTable-sign-up{
+    padding: 25px 0;
+}
+
+.pricingTable .btn-block{
+    width: 50%;
+    margin: 0 auto;
+    background: #f92c9f;
+    border:1px solid transparent;
+    padding: 10px 5px;
+    color:#fff;
+    text-transform: capitalize;
+    border-radius: 5px;
+    transition:0.3s ease;
+}
+
+.pricingTable .btn-block:after{
+    content: "\f090";
+    font-family: 'FontAwesome';
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.pricingTable:hover .btn-block{
+    background:#fff;
+    color: #f92c9f;
+    border:1px solid #f92c9f;
+}
+#personalplan{
+    line-height: 35px;
+    padding: 69px
 }
 /*.ab-list-icon */
 .about-list-icon ul {
@@ -542,9 +655,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .profiles {
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
+    background-color: #f9fbfd;
 }
 
-.profiles-content {padding-top: 100px;}
+.profiles-content {padding: 100px 50px 0px 50px;}
 .profiles-content .col-sm-3{padding:0;}
 .profile-txt {
     display: flex;
@@ -709,7 +823,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         11. Contact
 --------------------------------------*/
 .contact {
-    background: #f9fbfd;
+    /* background: #f9fbfd; */
     padding: 50px 0 100px;
 }
 .single-contact-box {padding-top: 100px;}
@@ -724,7 +838,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border-radius: 0px;
     box-shadow: none;
     outline: 0!important;
-    background: #fff;
+    background: #dfa1a11f;
     color: #636a82;
     resize: none;
 }
