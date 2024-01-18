@@ -69,14 +69,19 @@
     margin-top: 21px;
   }
   nav.navbar.bootsnav .navbar-brand {
-    float: left !important;
+    position: relative;
+    right: 20%;
   }
+  .single-about-img img {
+    height: 20%;
+  }
+
   nav.navbar.bootsnav ul.nav > li > a {
     padding: 15px 0px;
     border: transparent;
   }
   .logo {
-    margin: 16px 0px 0px -25px;
+    margin: 0px 0px 0px -25px;
   }
   .pricingTable {
     margin-bottom: 10px;
@@ -155,6 +160,9 @@
 } /*max-width:660px*/
 
 @media screen and (max-width: 640px) {
+  nav.navbar.bootsnav .navbar-header {
+    padding-left: 87px;
+  }
 } /*max-width:640px*/
 
 @media screen and (max-width: 580px) {
@@ -176,6 +184,13 @@
   }
   .about-content {
     text-align: -webkit-center;
+  }
+  .navbar-brand img {
+    width: 60px;
+    top: -6px;
+  }
+  nav.navbar.bootsnav .navbar-brand {
+    font-size: 1.8rem;
   }
 } /*max-width:480px*/
 

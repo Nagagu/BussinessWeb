@@ -125,6 +125,13 @@ nav.navbar.bootsnav {
     padding: 33px 0px 57px;
     text-transform: uppercase;
 }
+.navbar-brand img{
+    display: inline;
+    margin-right: 10px;
+    position: relative;
+    top: -8px;
+    width: 100px;
+}
 /*.navbar-brand*/
 
 /*.nav li*/
@@ -486,7 +493,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         6.  Skills
 --------------------------------------*/
 .logo {
-    margin:16px 0px 0px -245px;
+    display: inline;
     width: 40px;
     
 }
