@@ -347,7 +347,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #f92c9f ;}
     padding: 0 10px;
 }
 
-.pricingTable .price-value span{
+.pricingTable .price-value{
     font-size: 50px;
 }
 
@@ -357,6 +357,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #f92c9f ;}
     font-size: 15px;
     margin-top: 15px;
 
+}
+.pricingTable .subtitle-personal{
+    font-size: 25px;
 }
 
 .pricingTable .pricingContent ul{
